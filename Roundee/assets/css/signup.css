@@ -19,12 +19,19 @@ input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([re
   width: 30%;
   background: url(../images/signup_illustration.png) no-repeat;
   background-size: contain;
-  background-position: 10%;
+  background-position-y: 3.5em;
 }
 .wd25 {
   width: 25%;
-  margin-left: 7em;
+  padding-left: 5em;
 }
 .ht700 {
-  height: 700px;
+  height: 800px;
+}
+.ht5 {
+  height: 6.5em;
+}
+.wt400 {
+  font-weight: 400;
+  margin-bottom: 4em;
 }

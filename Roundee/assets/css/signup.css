@@ -1,0 +1,30 @@
+#signup_form {
+  display: flex;
+  justify-content: center;
+  height: 863px;
+}
+.form_title, .fw-300 {
+  font-weight:300;
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #2AD7BC;
+  box-shadow: 0 1px 0 0 #2AD7BC;
+  -webkit-box-shadow: 0 1px 0 0 #2AD7BC;
+}
+input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label {
+  color: #5F6E80;
+}
+
+.illust {
+  width: 30%;
+  background: url(../images/signup_illustration.png) no-repeat;
+  background-size: contain;
+  background-position: 10%;
+}
+.wd25 {
+  width: 25%;
+  margin-left: 7em;
+}
+.ht700 {
+  height: 700px;
+}

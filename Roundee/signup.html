@@ -107,13 +107,20 @@
                   <div class="md-form ht5">
                       <input type="text" class="form-control" id="emailInput">
                       <label for="emailInput" class="fw-300">E-mail</label>
+                      <span id="email_valid" class="valid">Please check the eamil address</span>
                   </div>
                   <div class="md-form ht5">
                       <input type="text" class="form-control" id="fullName" >
                       <label for="fullName" class="fw-300">Full Name</label>
+                      <span id="name_valid" class="valid">Name must contain only letters</span>
                   </div>
                   <div class="md-form ht5">
-                      <input type="password" class="form-control" id="password">
+                      <input type="password" class="form-control" id="u_pwd">
+                      <span id="pw_valid" class="hint">Minimum 8 characters including minimum one special character such as !@#$%</span>
+                        <div id="chk_pwd" class="showhide" onclick="pwd_show();">
+                          <img src="assets/images/hide_password.png" id="showhide" />
+                          <input type="hidden" id="sh" value="1">
+                        </div>
                       <label for="password" class="fw-300">Password</label>
                   </div>
                   <div class="text-center ps-relative" style="height: 48px;">
@@ -163,6 +170,7 @@
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/modernizr.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/signup.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>

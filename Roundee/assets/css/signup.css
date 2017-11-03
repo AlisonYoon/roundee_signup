@@ -3,6 +3,9 @@
   justify-content: center;
   height: 863px;
 }
+#signup_form tbody{
+  width: 60%;
+}
 .form_title, .fw-300 {
   font-weight:300;
 }
@@ -37,4 +40,21 @@ input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([re
 }
 form p {
   text-align: center;
+}
+/*** Password show/hide button ***/
+.showhide {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+/*** Check Validation ***/
+.valid {
+  color: #E35A66;
+  display: block;
+  margin-top: -10px;
+}
+.hint {
+  color: #5F6E80;
+  display: block;
+  margin-top: -10px;
 }
